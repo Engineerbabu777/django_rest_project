@@ -1,3 +1,8 @@
 import requests
 
-endpoint = "http://"
+endpoint = "http://www.github.com"
+
+
+response = requests.get(endpoint)
+
+print(response.json())
